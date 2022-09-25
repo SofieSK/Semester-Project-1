@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Reem Kufi Ink";
+    src: url(../Fonts/Reem_Kufi_Ink/ReemKufiInk-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Rubik Dirt";
+    src: url(../Fonts/Rubik_Dirt/RubikDirt-Regular.ttf) format(truetype);
+}
+
+body {
+    font-family: "Reem Kufi Ink";
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+
+.logohome {
+    font-family: "Rubik Dirt";
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    background-color: #A7B7AB;
+    padding: 1px;
+}
+
+.logo {
+    font-family: "Rubik Dirt";
+    color: white;
+}
+
+header{
+    background-color: #707070;
+    color: white;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    width: 100%;
+    min-height: 90px;
+}
+
+header a{
+    color: white;
+    padding: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+
+
+.active {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #707070;
+    color: white;
+    width: 100%;
+    height: 400px;
+    bottom: 0;
+}
+
+footer a{
+    color: white;
+}
+
+.cta-read {
+    background-color: #707070;
+    color: white;
+    padding: 10px 50px;
+}
+
+
+nav li {
+    display: inline;
+}
+
+
+div li {
+    display: inline;
+}
+
+
+footer {
+    list-style: none;
+}
+
+.welcome {
+    position: relative;
+    min-height: 40vh;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.welcome-text {
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.welcome-content {
+    text-align: center;
+    flex: 6;
+    padding: 10px;
+}
+
+.welcome-images {
+    width: 5cm;
+    height: 4.5cm;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #707070;
+}
+
+.cta a{
+    background-color: #707070;
+    color: white;
+    position: absolute;
+    margin-top: 300px;
+    padding: 10px 30px;
+}
+
+
+.events-images {
+    width: 10cm;
+    height: 9cm;
+    position: relative;
+    display: flex;
+    margin: 50px auto;
+    min-height: 40vh;
+    max-width: 1000px;
+}
+
+.events-content {
+    text-align: center;
+    flex: 3;
+    padding: 10px;
+    
+}
+
+.events {
+    background-color: #A7B7AB;
+    text-align: center;
+    color: white;
+    max-height: 300vh;
+}
+
+.location-image {
+    width: 15cm;
+    height: 14cm;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    background-color: #A7B7AB;
+    padding: 10px 20px;
+}
+
+.menu a {
+    padding: 10px 90px;
+    color: white;
+}
+
+
+.hours, 
+.explore,
+.involved {
+    display: inline-block;
+    text-align: center;
+    padding: 150px;
+    margin-top: 0px;
+}
+
+.events-logo {
+    padding-top: 20px;
+}
+
+.location-text {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.location,
+h2 {
+    padding-top: 20px;
+}
+
+/* Exhibitons */
+
+.ex {
+    text-align: center;
+}
+
+.ex-images {
+    width: 10cm;
+    height: 9cm;
+    border: 2px solid;
+    border-color: #707070;
+    margin-top: 20px;
+}
+
+/* Explore */
+
+.explore {
+    text-align: center;
+}
+
+/* Events */
+
+.eventss {
+    text-align: center;
+    margin: 20px;
+}
+
+.eventss-images {
+    width: 10cm;
+    height: 9cm;
+}
+
+.g-involved {
+    text-align: center;
+}
